@@ -1,0 +1,21 @@
+#This file for git hub to completely ignore folders and files below while running the code
+
+# temporary binary files that change every time you run code
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# ignores unnecessary system files.
+.DS_Store
+Thumbs.db
+desktop.ini
