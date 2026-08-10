@@ -4,16 +4,16 @@ This project evaluates different machine learning models on the COMPAS dataset. 
 
 ## Project Structure
 The project is divided into separate Python files, with each file handling one specific step of the machine learning (ML) process.
+
 | File | Responsibility |
 | :--- | :--- |
-| `src/data_loader.py` | Loads the compas.csv dataset, checks the required columns, and shows the dataset size
- |
-| `src/preprocessing.py` |Selects the required features, converts variables into a usable format, and splits the data into training and testing sets|
-| `src/models.py` | Trains Logistic Regression, Random Forest, and Gradient Boosting models and saves them as .pkl files|
-| `src/evaluation.py` |Creates confusion matrix, ROC curve, and PR curve plots to evaluate each model|
-| `src/explainability.py` | Creates SHAP summaries to explain the models (overall) and LIME plots to explain (individual predictions)|
+| `src/data_loader.py` | Loads the compas.csv dataset, checks the required columns, and shows the dataset size |
+| `src/preprocessing.py` | Selects the required features, converts variables into a usable format, and splits the data into training and testing sets |
+| `src/models.py` | Trains Logistic Regression, Random Forest, and Gradient Boosting models and saves them as .pkl files |
+| `src/evaluation.py` | Creates confusion matrix, ROC curve, and PR curve plots to evaluate each model |
+| `src/explainability.py` | Creates SHAP summaries to explain the models (overall) and LIME plots to explain (individual predictions) |
 | `src/fairness.py` | Checks model performance across different race and sex groups using FPR, FNR, Precision, and Recall, and creates fairness charts |
-| `results/` | Stores all the final outputs from the project, including trained models, evaluation plots, SHAP/LIME explanations, and fairness results|
+| `results/` | Stores all the final outputs from the project, including trained models, evaluation plots, SHAP/LIME explanations, and fairness results |
 
 ## Requirements
 -   **Python:** 3.11+
